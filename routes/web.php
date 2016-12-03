@@ -17,6 +17,12 @@ Route::get('/', function () {
 
 Route::get('/information', 'CarController@information');
 
+Route::get('/information/{car_id}', [
+  'as' => 'car.details',
+  'uses' => 'CarController@details'
+]);
+
+
 Auth::routes();
 
 Route::get('/home', 'HomeController@index');

@@ -1,10 +1,40 @@
 bmw_i8     14000
+details : Three pistons combusting internally, a dash of electrons and lots of aluminum and carbon fiber are the i8’s main ingredients. Its 357-hp hybrid powertrain drives all four wheels; in our hands, the i8 hit 60 mph in 4.0 seconds and saw 38 MPGe on our 200-mile test run. The poised chassis and sharp steering are good fun, but eco-friendly tires and regenerative braking hinder performance. Familiar controls nestle in a plush cabin; the i8’s eye-catching styling is straight out of a sci-fi flick.
+
 bmw_series7    5500
+details : Affluent driving enthusiasts will love the 7-series, both for its luxurious cabin and its surprising agility. The iDrive system controls infotainment with gesture control; there’s wireless charging for smartphones. The 320-hp 3.0-liter turbo inline-six is adequate, but the optional 445-hp 4.4-liter twin-turbo V-8 really moves. A plug-in hybrid is EPA rated for 75 MPGe. Rear-drive is standard; all-wheel drive is standard on the plug-in and optional on the V-8. The Alpina B7 has a 600-hp V-8.
+
 chevrolet_captiva 2000
+details : In order to add fresh feel to its Chevrolet Captiva SUV, General Motors India, today launched the 2015 model of the premium Sports Utility Vehicle at Rs 25.13 lac. The car comes with manual transmission while the automatic transmission model is priced at Rs 27.36 Lac. Like the previous model, the SUV will offer both 4x2 and 4x4 (AWD) driving modes. Under the hood, the car is powered by the tried and test 2.2-litre diesel engine which gives an impressive output of 186.5bhp at 3,800rpm and torque of 400Nm at 2,000rpm. The engine is either mated to 6-speed manual transmission or a 6-speed automatic gearbox in the All Wheel Drive (AWD) model.
+
 ford_ecosport 1500
+details : As its name suggests, the Ford EcoSport is a sporty, compact crossover offering an economy-minded package. It has plenty of storage space and a snazzy side-hinged rear hatch. A 1.0-liter turbocharged three-cylinder with front-wheel drive is standard, while a 2.0-liter four with all-wheel drive is optional; both use a six-speed automatic. An 8.0-inch touchscreen infotainment system features Apple CarPlay and Android Auto. Also available is a 10-speaker premium sound system pumping out 675 watts.
+
 ford_focus 2000
+details : A European-developed chassis gives even the base Focus a rare blend of agility and accuracy, making it enjoyable to drive even when compared with newer competitors. A 160-hp 2.0-liter four-cylinder is standard, while an optional 123-hp 1.0-liter turbo three-cylinder with auto stop/start is aimed at extra efficiency. Both are available with either an automatic or manual transmission. We recorded 25 mpg overall with both a 2.0-liter five-speed manual model and a 1.0-liter with an automatic.
+
 isuzu_Dmax 1500
+details : The new facelifted 2017 Isuzu D-Max is the Japanese brand's tough workhorse that's designed to take on any road. It inherited the reliability of the Fuego and its predecessors but with more modern features that are fit to the lifestyle of anyone in the Philippines.
+The new D-Max has a notable rear bed size at 1,485 mm x 1,530 mm x 465 mm, which can carry a multitude of large and heavy items. It can also be optioned with an array of accessories like bed covers, camper shells, and more.
+Aside from the soft leather seats for 5 passengers, it has automatic climate control and a 7-inch LCD multimedia head unit with DVD/WMA/MP3 compatibility and Bluetooth/iPod connectivity for the comfort and entertainment of everyone inside.
+Inside its bonnet is a reliable 3.0L 4JJI-TC (HI) diesel power plant with VGS turbocharger and intercooler, coupled to either a 5-speed manual transmission or a 5-Speed automatic transmission with sequential shift. Performance output reaches 163 hp and 380 Nm of torque – both available in 4x2 and 4x4 variants.
+
 isuzu_mu_x 2000
+details : The All New ISUZU mu-X strikes a commanding presence. With a sophisticated city styling meshed with tough off-road looks, the mu-X will turn all
+the right reasons. Available in a variety of different spec levels, there's an ISUZU mu-X that not only looks the part, but is specially designed with all
+the features suited to any driving purpose.
+Whether you're making a grand entrance on the red carpet or meeting friends off the beaten track, tha All-New ISUZU mu-X looks at home in any
+setting and on any terrain. Effortlessly, the mu-X blurs the boundaries between the city and country side-providing you and your family with an
+endless choice of exciting destinations.
+
 honda_accord 2200
+details : The Accord delivers driving fun in a practical package; all models (except the hybrid) are 2017 10Best winners. A 185-hp 2.4-liter four and a six-speed manual are standard in the coupe and sedan, while Sport models make 189 hp. A CVT is optional, as is a 278-hp 3.5-liter V-6 with a six-speed automatic; the coupe offers a six-speed manual. The hybrid saw 45 mpg in our test. EX models and above have Apple CarPlay and Android Auto, but some may find the button-less infotainment system annoying.
+
+
+
 mazda3 2000
+details : Not many vehicles successfully combine style, dynamics, and value in a compact package, but the Mazda 3 does, which is why it’s a 10Best winner. Hatchback or sedan bodies are available; a slick six-speed manual and a 155-hp 2.0-liter four are standard, while a six-speed automatic and a 2.5-liter 184-hp four are options. The responsive steering and great handling will have drivers dreaming of twisty roads. Even add-ons such as nav, traffic-sign recognition, and heated seats won’t break the bank.
+
 toyota_camry 3000
+details : For the majority of people to whom a car is merely an appliance, the Camry meets their needs perfectly. Those seeking a zestier ride should look elsewhere. A 178-hp four-cylinder is standard, while a 268-hp V-6 offers some serious zip. Both have a six-speed automatic; a manual is not available. There’s a hybrid, rated up to 38 mpg on the highway. The XSE aims at enthusiasts with a stiffer suspension and some extra styling bits, but its steering is numb, its braking and handling unexceptional.
+

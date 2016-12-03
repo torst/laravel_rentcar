@@ -1,0 +1,10 @@
+bmw_i8     14000
+bmw_series7    5500
+chevrolet_captiva 2000
+ford_ecosport 1500
+ford_focus 2000
+isuzu_Dmax 1500
+isuzu_mu_x 2000
+honda_accord 2200
+mazda3 2000
+toyota_camry 3000

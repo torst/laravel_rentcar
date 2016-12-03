@@ -12,5 +12,11 @@
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('home');
 });
+
+Route::get('/information', 'CarController@information');
+
+Auth::routes();
+
+Route::get('/home', 'HomeController@index');

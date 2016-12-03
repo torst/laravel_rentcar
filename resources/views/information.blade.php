@@ -1,4 +1,5 @@
 @extends('layouts.app')
+
 @section('content')
 <!DOCTYPE html>
 <html>
@@ -11,7 +12,7 @@
         <div class="row">
           @foreach($car as $car)
             <div class="col-sm-4">
-              <img src="img/bmw1.jpg" alt="Car" width="100%">
+              <img src="img/{{$car->id}}.jpg" alt="Car" width="70%"><br>
               Name : {{$car->car_name}}<br>
               Brand : {{$car->brand}}<br>
               Type : {{$car->type}}<br>

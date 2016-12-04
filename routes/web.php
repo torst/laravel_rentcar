@@ -15,6 +15,8 @@ Route::get('/', function () {
     return view('home');
 });
 
+Route::get('/car', 'CarController@checkdate');
+
 Route::get('/information', 'CarController@information');
 
 Route::get('/information/details/{car_id}', [
@@ -22,7 +24,6 @@ Route::get('/information/details/{car_id}', [
   'uses' => 'CarController@details'
 ]);
 
-Route::get('/details', 'CarController@details');
 
 Auth::routes();
 

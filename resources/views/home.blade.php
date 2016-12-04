@@ -13,9 +13,9 @@
                     <div class="title m-b-md">
                         Rent Car
                     </div><br>
-                    <form class="" action="index.html" method="post">
-                      Start_Date : <input type="date"><br><br>
-                      End_Date   : <input type="date"><br>
+                    <form action="{{ url('/car') }}" method="get">
+                      Start_Date : <input type="date" name="start"><br><br>
+                      End_Date   : <input type="date" name="end"><br>
                       <br><button type="submit" name="button">Search</button>
                     </form>
                 <br><br>

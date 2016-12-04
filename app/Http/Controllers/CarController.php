@@ -15,4 +15,23 @@ class CarController extends Controller
       $car = Car::where('id', $car_id)->first();
       return view('details')->with(['car'=>$car]);
     }
+
+
+    public function checkdate(Request $Request){
+      $car = Car::all();
+      $start = $Request->start;
+      $end = $Request->end;
+      if ($start == '' || $end == '') {
+        echo "<script type='text/javascript'>alert('Please input date start to end.');</script>";
+        return view('home');
+      }
+      elseif ($start <= $end) {
+        return view('car')->with(['start'=>$Request->start,'end'=>$Request->end, 'car'=>$car]);
+      }
+      else {
+        echo "<script type='text/javascript'>alert('Please input date is correct!.');</script>";
+        return view('home');
+      }
+
+    }
 }

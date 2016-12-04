@@ -16,7 +16,7 @@
                     <form action="{{ url('/car') }}" method="get">
                       Start_Date : <input type="date" name="start"><br><br>
                       End_Date   : <input type="date" name="end"><br>
-                      <br><button type="submit" name="button">Search</button>
+                      <br><button type="submit" class="btn btn-primary">Search</button>
                     </form>
                 <br><br>
 

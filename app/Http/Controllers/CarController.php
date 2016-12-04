@@ -34,4 +34,12 @@ class CarController extends Controller
       }
 
     }
+
+    public function rent($car_id){
+      $car = Car::where('id', $car_id)->first();
+      return view('rent')->with(['car'=>$car]);
+    }
+    public function addname($car_id){
+      
+    }
 }

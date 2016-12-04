@@ -24,6 +24,15 @@ Route::get('/information/details/{car_id}', [
   'uses' => 'CarController@details'
 ]);
 
+Route::get('/car/rent/{car_id}', [
+  'as' => 'car.rent',
+  'uses' => 'CarController@rent'
+]);
+
+Route::get('/car/rent/add/{car_id}', [
+  'as' => 'car.addname',
+  'uses' => 'CarController@addname'
+]);
 
 Auth::routes();
 

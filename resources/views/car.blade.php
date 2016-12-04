@@ -31,10 +31,10 @@
       Brand : {{$car->brand}}<br>
       Type : {{$car->type}}<br>
       Price : {{$car->price}} baht/day<br>
-      <form action="{{ route('car.details', ['car_id' => $car->id]) }}" method="get">
+      <form action="{{ route('car.rent', ['car_id' => $car->id]) }}" method="get">
         {{ csrf_field() }}
         {{-- {{ method_field('PATCH') }} --}}
-      <center><button type="submit" class="btn btn-success btn-sm">view details>></button>
+      <center><button type="submit" class="btn btn-success btn-sm">rent car!</button>
         <br><br><br>
       </form>
     </div>

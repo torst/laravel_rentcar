@@ -13,10 +13,11 @@
                     <div class="title m-b-md">
                         Rent Car
                     </div><br>
-
-                Start_Date : <input type="date"><br><br>
-                End_Date   : <input type="date"><br>
-                <br><button type="submit" name="button">Search</button>
+                    <form class="" action="index.html" method="post">
+                      Start_Date : <input type="date"><br><br>
+                      End_Date   : <input type="date"><br>
+                      <br><button type="submit" name="button">Search</button>
+                    </form>
                 <br><br>
 
         </div>

@@ -26,7 +26,7 @@
                 {{-- {{ method_field('PATCH') }} --}}
               <center><button type="submit" class="btn btn-success btn-sm">view details>></button>
                 <br><br><br>
-                </form>
+              </form>
             </div>
             @endforeach
         </div>

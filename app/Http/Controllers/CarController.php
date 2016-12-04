@@ -13,7 +13,6 @@ class CarController extends Controller
 
     public function details($car_id){
       $car = Car::where('id', $car_id)->first();
-
       return view('details')->with(['car'=>$car]);
     }
 }

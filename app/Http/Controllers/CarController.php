@@ -3,6 +3,8 @@
 namespace App\Http\Controllers;
 use App\Car;
 use App\rent;
+use DB;
+
 use Illuminate\Http\Request;
 
 class CarController extends Controller
@@ -43,14 +45,9 @@ class CarController extends Controller
     }
     public function addname($car_name, Request $Request){
       $rent = rent::all()->first();
-      $rent->car_name = $car_name;
-      $rent->date_of_start = $Request->start;
-      $rent->date_of_end = $Request->end;
-      $rent->idcard = $Request->idcard;
-      $rent->name = $Request->name;
-      $rent->tel = $Request->tel;
-      $rent->address = $Request->address;
-      $rent->save();
+      $rent = DB::table('rent')->insertGetId(
+    ['car_name' => $car_name, 'date_of_start' => $Request->start, 'date_of_end' => $Request->end, 'idcard' => $Request->idcard, 'name' => $Request->name, 'tel' => $Request->tel, 'address' => $Request->address]
+);
       return view('home');
     }
 }

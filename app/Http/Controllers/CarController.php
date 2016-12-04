@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 use App\Car;
+use App\rent;
 use Illuminate\Http\Request;
 
 class CarController extends Controller
@@ -19,6 +20,7 @@ class CarController extends Controller
 
     public function checkdate(Request $Request){
       $car = Car::all();
+      $rent = rent::all();
       $start = $Request->start;
       $end = $Request->end;
       if ($start == '' || $end == '') {
@@ -26,7 +28,7 @@ class CarController extends Controller
         return view('home');
       }
       elseif ($start <= $end) {
-        return view('car')->with(['start'=>$Request->start,'end'=>$Request->end, 'car'=>$car]);
+        return view('car')->with(['start'=>$Request->start,'end'=>$Request->end, 'car'=>$car, 'rent'=>$rent]);
       }
       else {
         echo "<script type='text/javascript'>alert('Please input date is correct!.');</script>";
@@ -39,16 +41,16 @@ class CarController extends Controller
       $car = Car::where('id', $car_id)->first();
       return view('rent')->with(['start'=>$Request->start,'end'=>$Request->end,'car'=>$car]);
     }
-    public function addname($car_id, Request $Request){
-      $car = Car::where('id', $car_id)->first();
-      $car->status = '1';
-      $car->date_of_start = $Request->start;
-      $car->date_of_end = $Request->end;
-      $car->idcard = $Request->idcard;
-      $car->name = $Request->name;
-      $car->tel = $Request->tel;
-      $car->address = $Request->address;
-      $car->save();
+    public function addname($car_name, Request $Request){
+      $rent = rent::all()->first();
+      $rent->car_name = $car_name;
+      $rent->date_of_start = $Request->start;
+      $rent->date_of_end = $Request->end;
+      $rent->idcard = $Request->idcard;
+      $rent->name = $Request->name;
+      $rent->tel = $Request->tel;
+      $rent->address = $Request->address;
+      $rent->save();
       return view('home');
     }
 }

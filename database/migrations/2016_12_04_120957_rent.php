@@ -4,7 +4,7 @@ use Illuminate\Support\Facades\Schema;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Database\Migrations\Migration;
 
-class CreateCarTable extends Migration
+class Rent extends Migration
 {
     /**
      * Run the migrations.
@@ -13,13 +13,15 @@ class CreateCarTable extends Migration
      */
     public function up()
     {
-        Schema::create('car', function (Blueprint $table) {
+        Schema::create('rent', function (Blueprint $table) {
             $table->increments('id');
             $table->string('car_name');
-            $table->string('brand');
-            $table->string('type');
-            $table->integer('price');
-            $table->text('details');
+            $table->date('date_of_start');
+            $table->date('date_of_end');
+            $table->string('idcard');
+            $table->string('name');
+            $table->integer('tel');
+            $table->string('address');
             $table->timestamps();
         });
     }
@@ -31,6 +33,6 @@ class CreateCarTable extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('car');
+        Schema::dropIfExists('rent');
     }
 }

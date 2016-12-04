@@ -14,8 +14,6 @@
       </div><br><br>
         <div class="row">
     @foreach($car as $car)
-    @if($car->status == '0')
-
     @if($start > $car->date_of_start && $end < $car->date_of_end)
     {{1}}
     @elseif(($start > $car->date_of_start && $start < $car->date_of_end) || ($end >= $car->date_of_start && $end <= $car->date_of_end))
@@ -40,8 +38,6 @@
         <br><br><br>
       </form>
     </div>
-    @endif
-
     @endif
     @endforeach
   </div>

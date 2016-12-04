@@ -8,7 +8,7 @@
     <title></title>
   </head>
   <body>
-    <form action="{{ route('car.addname', ['car_id' => $car->id]) }}" method="get">
+    <form action="{{ route('car.addname', ['car_name' => $car->car_name]) }}" method="get">
     {{ csrf_field() }}
     {{-- {{ method_field('PATCH') }} --}}
     ID-Card : <input type="text" name="idcard"><br>
@@ -22,6 +22,7 @@
     Price : {{$car->price}} Baht/day <br>
     Start : {{$start}}<br>
     End : {{$end}}<br>
+    <input type="text" name="car_name" value="{{$car->car_name}}" hidden="">
     <?php
     $datestart = new DateTime(($start));
     $dateend = new DateTime(($end));

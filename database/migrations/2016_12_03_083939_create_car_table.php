@@ -19,10 +19,11 @@ class CreateCarTable extends Migration
             $table->string('brand');
             $table->string('type');
             $table->integer('price');
+            $table->string('details');
             $table->integer('status');
             $table->date('date_of_start');
             $table->date('date_of_end');
-            $table->integer('idcard');
+            $table->string('idcard');
             $table->string('name');
             $table->integer('tel');
             $table->string('address');

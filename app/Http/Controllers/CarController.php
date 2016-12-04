@@ -35,11 +35,20 @@ class CarController extends Controller
 
     }
 
-    public function rent($car_id){
+    public function rent($car_id, Request $Request){
       $car = Car::where('id', $car_id)->first();
-      return view('rent')->with(['car'=>$car]);
+      return view('rent')->with(['start'=>$Request->start,'end'=>$Request->end,'car'=>$car]);
     }
-    public function addname($car_id){
-      
+    public function addname($car_id, Request $Request){
+      $car = Car::where('id', $car_id)->first();
+      $car->status = '1';
+      $car->date_of_start = $Request->start;
+      $car->date_of_end = $Request->end;
+      $car->idcard = $Request->idcard;
+      $car->name = $Request->name;
+      $car->tel = $Request->tel;
+      $car->address = $Request->address;
+      $car->save();
+      return view('home');
     }
 }

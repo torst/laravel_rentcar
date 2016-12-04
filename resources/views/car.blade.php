@@ -34,6 +34,8 @@
       <form action="{{ route('car.rent', ['car_id' => $car->id]) }}" method="get">
         {{ csrf_field() }}
         {{-- {{ method_field('PATCH') }} --}}
+        <input type="date" name="start" value="{{$start}}" hidden=""><br>
+        <input type="date" name="end" value="{{$end}}" hidden="">
       <center><button type="submit" class="btn btn-success btn-sm">rent car!</button>
         <br><br><br>
       </form>

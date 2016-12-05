@@ -5,6 +5,7 @@ use App\Car;
 use App\rent;
 use DB;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Auth;
 
 class CarController extends Controller
 {
@@ -53,7 +54,7 @@ class CarController extends Controller
       $car->save();
       $car = DB::table('car')->insertGetId(
     ['id' => '11', 'car_name' => $car->car_name,'brand' => $car->brand, 'type' => $car->type, 'price' => $car->price, 'details' => $car->details, 'date_of_start' => $Request->start, 'date_of_end' => $Request->end,
-    'idcard' => $Request->idcard, 'name' => $Request->name, 'tel' => $Request->tel, 'address' => $Request->address]
+    'idcard' => $Request->idcard, 'name' => $Request->name, 'tel' => $Request->tel, 'address' => $Request->address, 'Login_name' => Auth::user()->name]
 );
 
       return view('home');

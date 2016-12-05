@@ -26,6 +26,7 @@ class CreateCarTable extends Migration
             $table->string('name')
             $table->integer('tel')
             $table->text('address')
+            $table->string('Login_name')
             $table->timestamps();
         });
     }

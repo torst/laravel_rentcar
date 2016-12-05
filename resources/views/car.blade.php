@@ -13,17 +13,18 @@
           <center>Select car for rent
       </div><br><br>
         <div class="row">
+          
     @foreach($car as $car)
     @if($start > $car->date_of_start && $end < $car->date_of_end)
-    {{1}}
+
     @elseif(($start > $car->date_of_start && $start < $car->date_of_end) || ($end >= $car->date_of_start && $end <= $car->date_of_end))
-    {{2}}
+
     @elseif($start == $car->date_of_start || $end==$car->date_of_end)
-    {{3}}
+
     @elseif($car->date_of_start > $start && $car->date_of_end < $end)
-    {{4}}
+
     @elseif($car->id <= '10')
-    
+
       <div class="col-sm-4">
         <img src="img/{{$car->id}}.jpg" alt="Car" width="200px"><br>
         Name : {{$car->car_name}}<br>
@@ -42,6 +43,7 @@
 
     @endif
     @endforeach
+
   </div>
 </div>
   </body>

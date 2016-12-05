@@ -29,7 +29,7 @@ Route::get('/car/rent/{car_id}', [
   'uses' => 'CarController@rent'
 ]);
 
-Route::get('/car/rent/add/{car_name}', [
+Route::get('/car/rent/add/{car_id}', [
   'as' => 'car.addname',
   'uses' => 'CarController@addname'
 ]);

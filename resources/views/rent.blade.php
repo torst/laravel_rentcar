@@ -8,7 +8,7 @@
     <title></title>
   </head>
   <body>
-    <form action="{{ route('car.addname', ['car_name' => $car->car_name]) }}" method="get">
+    <form action="{{ route('car.addname', ['car_id' => $car->id]) }}" method="get">
     {{ csrf_field() }}
     {{-- {{ method_field('PATCH') }} --}}
     ID-Card : <input type="text" name="idcard"><br>

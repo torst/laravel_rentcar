@@ -20,6 +20,12 @@ class CreateCarTable extends Migration
             $table->string('type');
             $table->integer('price');
             $table->text('details');
+            $table->date('date_of_start')
+            $table->date('date_of_end')
+            $table->string('idcard')
+            $table->string('name')
+            $table->integer('tel')
+            $table->text('address')
             $table->timestamps();
         });
     }

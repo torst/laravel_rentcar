@@ -13,7 +13,7 @@ details : As its name suggests, the Ford EcoSport is a sporty, compact crossover
 ford_focus 2000
 details : A European-developed chassis gives even the base Focus a rare blend of agility and accuracy, making it enjoyable to drive even when compared with newer competitors. A 160-hp 2.0-liter four-cylinder is standard, while an optional 123-hp 1.0-liter turbo three-cylinder with auto stop/start is aimed at extra efficiency. Both are available with either an automatic or manual transmission. We recorded 25 mpg overall with both a 2.0-liter five-speed manual model and a 1.0-liter with an automatic.
 
-isuzu_Dmax 1500
+isuzu_Dmax 1500  manual
 details : The new facelifted 2017 Isuzu D-Max is the Japanese brand's tough workhorse that's designed to take on any road. It inherited the reliability of the Fuego and its predecessors but with more modern features that are fit to the lifestyle of anyone in the Philippines.
 The new D-Max has a notable rear bed size at 1,485 mm x 1,530 mm x 465 mm, which can carry a multitude of large and heavy items. It can also be optioned with an array of accessories like bed covers, camper shells, and more.
 Aside from the soft leather seats for 5 passengers, it has automatic climate control and a 7-inch LCD multimedia head unit with DVD/WMA/MP3 compatibility and Bluetooth/iPod connectivity for the comfort and entertainment of everyone inside.

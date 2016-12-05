@@ -29,7 +29,7 @@ class CarController extends Controller
         echo "<script type='text/javascript'>alert('Please input date start to end.');</script>";
         return view('home');
       }
-      elseif ($start <= $end) {
+      elseif ($start < $end) {
         return view('car')->with(['start'=>$Request->start,'end'=>$Request->end, 'car'=>$car, 'rent'=>$rent]);
       }
       else {

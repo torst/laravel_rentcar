@@ -31,7 +31,10 @@
     <?php
     echo "according to schedule : ", $interval->format('%a days');
      ?><br>
-     Price all : {{$car->price}}*<?php echo $interval->format('%a days'); ?> <br>
+     <?php
+     $price = $interval->format('%a days')*$car->price;
+     echo "Price all : ", $price , " baht";
+     ?> <br>
 
     <button type="submit">rent</button>
     </form>

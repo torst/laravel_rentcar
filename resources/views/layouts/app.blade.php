@@ -20,7 +20,7 @@
         ]); ?>
     </script>
 </head>
-<body>
+<body background="img/bg1.jpg">
     <div id="app">
         <nav class="navbar navbar-default navbar-static-top">
             <div class="container">

@@ -1,14 +1,21 @@
 @extends('layouts.app')
 
 @section('content')
-<div class="container">
-    <div class="row">
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <style media="screen">
+  .title {
+      font-size: 84px;
+  }
+  </style>
+  <body>
+    <div class="container">
+      <div class="row">
         <div class="col-md-8 col-md-offset-2">
-          <style media="screen">
-          .title {
-              font-size: 84px;
-          }
-          </style>
               <center>
                     <div class="title m-b-md">
                         Rent Car
@@ -22,5 +29,7 @@
 
         </div>
     </div>
-</div>
+  </div>
+</body>
+</html>
 @endsection
